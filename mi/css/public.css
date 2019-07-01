@@ -1,0 +1,13 @@
+a {
+    color: #616161;
+}
+
+a:hover {
+    color: #ff6700;
+}
+.mi-text-bg:hover{
+    background-color: #ff6700;
+    color: white;
+    transition: all .3s;
+
+}

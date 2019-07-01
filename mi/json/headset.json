@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "name": "小米小爱音响",
+      "url": "images/carousel/xiaoaimini-08.jpg"
+    },
+    {
+      "name": "线控耳机",
+      "url": "images/carousel/erji80.jpg"
+    },
+    {
+      "name": "蓝牙耳机",
+      "url": "images/carousel/airdots.jpg"
+    },
+    {
+      "name": "头戴耳机",
+      "url": "images/carousel/toudai80.jpg"
+    },
+    {
+      "name": "品牌耳机",
+      "url": "images/carousel/pinpai80.jpg"
+    },
+    {
+      "name": "蓝牙音箱",
+      "url": "images/carousel/800-800-3.jpg"
+    },
+    {
+      "name": "小米AI音响",
+      "url": "images/carousel/xiaoai.jpg"
+    },
+    {
+      "name": "小米小爱音箱HD",
+      "url": "images/carousel/xiaoaiyinxhd.jpg"
+    },
+    {
+      "name": "K歌耳机",
+      "url": "images/carousel/kgeerji.jpg"
+    }
+  ]
+}

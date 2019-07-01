@@ -1,0 +1,488 @@
+.mi-body {
+    background-color: white;
+    height: 2000px;
+}
+
+.main-bd {
+    padding-top: 30px;
+    height: auto;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+.mi-body-phone {
+    height: 700px;
+}
+
+.mi-body-jiadian {
+    height: 500px;
+    background-color: greenyellow;
+}
+
+/**
+轮播
+ */
+.mi-lunbo {
+    height: 440px;
+}
+
+.layui-main #carousel-example-generic .right-tab-control {
+    position: absolute;
+    width: 235px;
+    height: 460px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 30;
+}
+
+.layui-main #carousel-example-generic #left-carl {
+    width: 40px;
+    height: 70px;
+    margin-left: 235px;
+    margin-top: 200px;
+}
+
+.layui-main #carousel-example-generic #right-carl {
+    width: 40px;
+    height: 70px;
+    margin-top: 200px;
+}
+
+.layui-main #carousel-example-generic a:hover {
+    background-color: rgba(0, 0, 0, 0.51);
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab {
+    margin-top: 20px;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li {
+    width: 235px;
+    height: 40px;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li:hover {
+    background-color: #ff6700;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li:hover span {
+    color: #FFC39B;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li a {
+    display: inline-block;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li a:hover {
+    background-color: #ff6700;
+}
+
+.layui-main #carousel-example-generic .carousel-inner .carl-tab li span {
+    margin-right: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    float: right;
+    color: rgb(190, 177, 164);
+}
+
+.layui-main #carousel-example-generic .tab-container {
+    left: 235px;
+    position: absolute;
+    z-index: 1000;
+    width: 935px;
+    height: 439px;
+    background: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+}
+
+.layui-main #carousel-example-generic .tab-container #submenu {
+    display: inline-block;
+    width: 225px;
+    height: 75px;
+    padding: 18px 20px;
+}
+
+.layui-main #carousel-example-generic .tab-container #submenu span {
+    margin-left: 10px;
+}
+
+.layui-main #carousel-example-generic .tab-container #submenu:hover {
+    background-color: white;
+    color: #ff6700;
+}
+
+.layui-main #carousel-example-generic #page-carl {
+    width: 100px;
+    margin-left: 450px;
+}
+
+/*右侧垂直导航栏*/
+.right-bar {
+    left: 1420px;
+    bottom: 100px;
+    position: fixed;
+    width: 100px;
+    height: 500px;
+}
+
+.right-bar #right-bar-ul li {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid rgb(245, 245, 245);
+    float: left;
+    background-color: white;
+}
+
+.right-bar #right-bar-ul li a i {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-size: 40px
+}
+
+.right-bar #right-bar-ul li .afont:hover {
+    color: #ff6700;
+}
+
+.right-bar #right-bar-ul li a span {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+}
+
+/*广告块*/
+#piece-content {
+    width: 1170px;
+    height: 210px;
+    margin-right: 0px;
+    margin-left: 175px;
+}
+
+#piece-content .advertising-piece {
+    width: 270px;
+    height: 170px;
+    margin-top: 20px;
+    margin-right: 22px;
+    padding: 0px;
+}
+
+#piece-content .advertising-piece ul {
+    margin-left: 3px;
+    display: inline-block;
+    background-color: rgb(95, 87, 80);
+    height: 170px;
+}
+
+#piece-content .advertising-piece li {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    width: 86px;
+    height: 82px;
+    border: 1px solid rgba(245, 245, 245, 0.1);
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+#piece-content .advertising-piece li a {
+    color: rgb(207, 205, 203);
+}
+
+#piece-content .advertising-piece li a:hover {
+    color: white;
+}
+
+#piece-content .advertising-piece li i {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding-right: 20px;
+}
+
+#piece-content .advertising-piece li span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*广告条*/
+.advertising-bar {
+    width: 1170px;
+    height: 120px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+}
+
+/*主体手机部分*/
+.main-bd .mi-body-phone .phone-title {
+    width: 1170px;
+    height: 50px;
+}
+
+.main-bd .mi-body-phone .phone-title a {
+    margin-left: 1000px;
+}
+
+.main-bd .mi-body-phone .phone-title .sp-phone {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+
+.main-bd .mi-body-phone .phone-content .right-img {
+    width: 240px;
+    height: 650px;
+    float: left;
+}
+
+.main-bd .mi-body-phone .phone-content .right-img:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content {
+    width: 920px;
+    height: 650px;
+    margin-left: 245px;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content ul {
+    width: 920px;
+    height: 650px;
+    display: inline-block;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items {
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: white;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items .activity-top {
+    width: 70px;
+    height: 20px;
+    color: white;
+    margin-left: 65px;
+    padding-left: 20px;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items .phone-img-a {
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items .phone-name-a {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items p {
+    margin-left: 8px;
+    width: 190px;
+    font-size: 11px;
+    color: rgb(215, 215, 215);
+}
+
+.main-bd .mi-body-phone .phone-content .phone-list-content .items span {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+/*家电主体部分*/
+.mi-body-jadian {
+    height: 725px;
+}
+
+.mi-body-jadian .jd-title {
+    height: 50px;
+}
+
+.mi-body-jadian .jd-title .left-title {
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 25px;
+    width: 100px;
+    float: left;
+}
+
+.mi-body-jadian .jd-title .jd-list-content {
+    height: 40px;
+    width: 300px;
+}
+
+.mi-body-jadian .jd-title .jd-list-content .jd-list {
+    height: 30px;
+    width: 400px;
+    margin-left: 880px;
+    margin-top: 10px;
+}
+
+.mi-body-jadian .jd-title .jd-list-content li {
+    font-size: 16px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    color: #0C0C0C;
+}
+
+.mi-body-jadian .jd-title .jd-list-content li:hover {
+    text-decoration: underline;
+}
+
+.mi-body-jadian .left-piece {
+    height: 670px;
+    width: 220px;
+    float: left;
+}
+
+.mi-body-jadian .left-piece li {
+    margin-top: 10px;
+    width: 205px;
+    height: 300px;
+}
+
+.mi-body-jadian .jd-list-tab {
+    position: absolute;
+    width: 950px;
+    height: 660px;
+
+    left: 220px;
+    background-color: rgb(245,245,245);
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece p{
+    text-align: center;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li {
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mi-body-jadian .left-piece li:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li {
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background: white;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece .lastchild-li:hover {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li {
+    width: 210px;
+    height: 140px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:first-child img {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:first-child div{
+    margin-left: 20px;
+    width: 40px;
+    height: 20px;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:first-child a:first-child{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    float: left;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:last-child div{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 60px;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:last-child p{
+    margin-left: 25px;
+    width: 40px;
+    float: left;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .last-li li:last-child i{
+    margin-left: 50px;
+    display: inline-block;
+    font-size: 50px;
+    color: #ff6700;
+}
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .activity-top {
+    width: 70px;
+    height: 20px;
+    color: white;
+    margin-left: 65px;
+    padding-left: 15px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .phone-img-a {
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .phone-name-a {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li p {
+    margin-left: 8px;
+    width: 190px;
+    font-size: 11px;
+    color: rgb(215, 215, 215);
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li span {
+    display: inline-block;
+    margin-left: 80px;
+    color: #ff6700;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .comment-piece {
+    position: relative;
+    background-color: #ff6700;
+    width: 210px;
+    height: 70px;
+    top: -55px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .comment-piece .comment {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.mi-body-jadian .jd-list-tab .jd-lists .hot-piece li .comment-piece .comment-name {
+    display: inline-block;
+    font-size: 10px;
+    color: rgb(255, 194, 153);
+}

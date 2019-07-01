@@ -1,0 +1,60 @@
+{
+  "links": [
+    {
+      "name": "双肩包",
+      "url": "images/carousel/xiangbao-80.jpg"
+    },
+    {
+      "name": "钱包",
+      "url": "images/carousel/qianbao-80.jpg"
+    },
+    {
+      "name": "旅行箱",
+      "url": "images/carousel/airdots.jpg"
+    },
+    {
+      "name": "运动鞋",
+      "url": "images/carousel/shenhuahui80.jpg"
+    },
+    {
+      "name": "服饰",
+      "url": "images/carousel/txv80.jpg"
+    },
+    {
+      "name": "眼镜",
+      "url": "images/carousel/tyj80.jpg"
+    },
+    {
+      "name": "床垫",
+      "url": "images/carousel/chuangdian-80-80.jpg"
+    },
+    {
+      "name": "枕头",
+      "url": "images/carousel/zhent.ou80.png"
+    },
+    {
+      "name": "沙发",
+      "url": "images/carousel/shafa.80.png"
+    },
+    {
+      "name": "饰品",
+      "url": "images/carousel/luosidao-80.jpg"
+    },
+    {
+      "name": "螺丝刀",
+      "url": "images/carousel/luosidao-80.jpg"
+    },
+    {
+      "name": "保温杯",
+      "url": "images/carousel/bbbbei.jpg"
+    },
+    {
+      "name": "伞",
+      "url": "images/carousel/umbrella.jpg"
+    },
+    {
+      "name": "驱蚊器",
+      "url": "images/carousel/quwenqi.jpg"
+    }
+  ]
+}

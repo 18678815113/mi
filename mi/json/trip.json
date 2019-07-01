@@ -1,0 +1,40 @@
+{
+  "links": [
+    {
+      "name": "手环手表",
+      "url": "images/carousel/shouhuan_80x80.png"
+    },
+    {
+      "name": "VR",
+      "url": "images/carousel/VRyitiji80.jpg"
+    },
+    {
+      "name": "平衡车",
+      "url": "images/carousel/scooter-80.jpg"
+    },
+    {
+      "name": "滑板车",
+      "url": "images/carousel/scooter2-80.jpg"
+    },
+    {
+      "name": "车载逆变器",
+      "url": "images/carousel/chezainibianqi80.jpg"
+    },
+    {
+      "name": "平衡车配件",
+      "url": "images/carousel/peijian80.jpg"
+    },
+    {
+      "name": "智能后视镜",
+      "url": "images/carousel/mirror-80.jpg"
+    },
+    {
+      "name": "智能记录仪",
+      "url": "images/carousel/jiluyi.jpg"
+    },
+    {
+      "name": "车载空气净化器",
+      "url": "images/carousel/chezaikongjing.jpg"
+    }
+  ]
+}

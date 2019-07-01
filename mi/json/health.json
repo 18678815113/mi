@@ -1,0 +1,60 @@
+{
+  "links": [
+    {
+      "name": "洗手机",
+      "url": "images/carousel/xishouji.jpg"
+    },
+    {
+      "name": "剃须刀",
+      "url": "images/carousel/tixvdao80.jpg"
+    },
+    {
+      "name": "日光镜",
+      "url": "images/carousel/riguang.jpg"
+    },
+    {
+      "name": "牙刷",
+      "url": "images/carousel/yashua80.jpg"
+    },
+    {
+      "name": "吹风机",
+      "url": "images/carousel/chuifengji.jpg"
+    },
+    {
+      "name": "体重秤",
+      "url": "images/carousel/scale.jpg"
+    },
+    {
+      "name": "体脂秤",
+      "url": "images/carousel/tizhicheng.jpg"
+    },
+    {
+      "name": "血压计",
+      "url": "images/carousel/xueyaji80.jpg"
+    },
+    {
+      "name": "体温计",
+      "url": "images/carousel/tiwenji80.jpg"
+    },
+    {
+      "name": "早智教育",
+      "url": "images/carousel/mitugushi-80.jpg"
+    },
+    {
+      "name": "遥控电动",
+      "url": "images/carousel/XIAOFEIJIBASHI.jpg"
+    },
+    {
+      "name": "益智积木",
+      "url": "images/carousel/toyblock2-80.jpg"
+    },
+    {
+      "name": "儿童手表",
+      "url": "images/carousel/shoubiao280.jpg"
+    },
+    {
+      "name": "儿童滑板车",
+      "url": "images/carousel/huabanche80.jpg"
+    }
+  ]
+}

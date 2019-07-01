@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <style type="text/css">
+        a {
+            color: #000000;
+        }
+
+        a:hover {
+            color: #ff6700;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 0px;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+<!-- 头部开始 -->
+<header>
+    <!-- 顶部导航部分开始 -->
+    <nav class="mi-topbar layui-fluid">
+        <div class="layui-main">
+            <div class="mi-topbar-nav">
+                <a href="#">小米商城</a><span class="sep">|</span>
+                <a href="#">MIUI</a><span class="sep">|</span>
+                <a href="#">LoT</a><span class="sep">|</span>
+                <a href="#">云服务</a><span class="sep">|</span>
+                <a href="#">金融</a><span class="sep">|</span>
+                <a href="#">有品</a><span class="sep">|</span>
+                <a href="#">小爱开放平台</a><span class="sep">|</span>
+                <a href="#">政企服务</a><span class="sep">|</span>
+                <a href="#">Select Region</a>
+            </div>
+            <div class="mi-topbar-info">
+                <a href="#">登陆</a><span class="sep">|</span>
+                <a href="#">注册</a><span class="sep">|</span>
+                <a href="#">消息通知</a>
+            </div>
+            <div class="mi-topbar-shopping">
+                <a href="#"><i class="layui-icon layui-icon-cart-simple "></i>购物车(0)</a>
+                <div class="mi-topbar-shopping-content">
+                    <p>购物车中还没有商品赶紧选购吧</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="mi-mainbar">
+        <div class="layui-main mi-mainbar-container">
+            <img src="images/xiaomiLoge.png" alt="" width="55px" height="55px">
+            <ul id="mi-main-list">
+                <li><a href="">小米手机</a></li>
+                <li><a href="">Redmi红米</a></li>
+                <li><a href="">电视</a></li>
+                <li><a href="">笔记本</a></li>
+                <li><a href="">家电</a></li>
+                <li><a href="">路由器</a></li>
+                <li><a href="">智能硬件</a></li>
+                <li><a href="">服务</a></li>
+                <li><a href="">社区</a></li>
+            </ul>
+            <div class="mi-search">
+                <input type="text"><i class="layui-icon layui-icon-search mi-text-bg"></i>
+            </div>
+            <div class="mi-search-text">
+                <span class="mi-text-bg">小米8</span>
+                <span class="mi-text-bg">小米MIS 2S</span>
+            </div>
+        </div>
+        <ul class="mi-main-list-content">
+            <!--小米手机-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/mi9-320.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米9</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2699</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/mi9se-320.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米9SE</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/qingchun-320.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米9青春版</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/mix3-320.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米MIX3</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">3299</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/pc-320-220-mi8.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米8</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2599</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img src="images/header/pc-320-miplay-1.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">小米Play</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1099</a></div>
+                </div>
+            </li>
+            <!--Redmi红米-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/red.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi K20pro</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/lanse.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi K20</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/black.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi 7A</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/redmi.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi Note 7 Pro</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1599</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/note7320-220.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi Note 7</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img src="images/header/320-220.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">Redmi 7</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">699</a></div>
+                </div>
+            </li>
+            <!--电视-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/bihuadianshi.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米壁画电视 65英寸</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">6999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/quanmianping55A.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米全面屏电视E55A</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">热卖</div>
+                    <img class="content--img" src="images/header/32.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米电视4A 32英寸</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">799</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">热卖</div>
+                    <img class="content--img" src="images/header/4A-55.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米电视4A 55英寸</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2099</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">热卖</div>
+                    <img class="content--img" src="images/header/4a653202201.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米电视4A 65英寸</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img src="images/header/475toutu.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">查看全部</div>
+                    <div class="content-title"><a href="">小米电视</a></div>
+                </div>
+            </li>
+            <!--笔记本-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/RedmiBook.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">RedmiBook 14</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">3999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/12.5yinsetoubu.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米笔记本 Air 12.5</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">3599</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/13.3huise.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米笔记本 Air 13.3</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">4999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/rubyheise.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米笔记本 15.6</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">3399</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/WechatIMG603.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米笔记本 Pro 15.6</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">5599</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img src="images/header/xinbijiben.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">小米游戏本</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">6499</a></div>
+                </div>
+            </li>
+            <!--家电-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/yijinengxiaokongtiao.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">米家互联网空调（一级能效）</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">2199</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/dunguntongxihong1a.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">米家滚筒洗烘一体机1A 8kg</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1699</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/redmixiyiji.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">Redmi全自动波轮洗衣机1A</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">899</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/xiaomijingshuiqi.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米净水器</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/saodijiqiren320-220.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">米家扫地机器人</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1699</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img src="images/header/yanzao.jpg" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">烟灶套装</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1699</a></div>
+                </div>
+            </li>
+            <!--路由器-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/luyoumesh.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米路由器 Mesh</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">999</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">双频双核</div>
+                    <img class="content--img" src="images/header/luyouqi4A.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米路由器4A 千兆版</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">149</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/luyouqi41C.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米路由器 4C</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">69</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/luyouqi4A.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米路由器4A</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">99</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">大容量</div>
+                    <img class="content--img" src="images/header/PRO.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米路由器 HD/Pro</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img src="images/header/quanbuluyouqi.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">查看全部小米路由器</div>
+                    <div class="content-title"><a href="" style="color: #ff6700"></a></div>
+                </div>
+            </li>
+            <!--智能硬件-->
+            <li>
+                <div class="list-content-first">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/yuntai.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米米家智能摄像机云台版</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">189</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/xiaoailaoshi.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米小爱老师</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">499</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/qingchun-320.png" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米米家智能门锁</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">1299</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img class="content--img" src="images/header/chuping.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小米小爱触屏音箱</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">299</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot">新品</div>
+                    <img class="content--img" src="images/header/wannengyaokong.jpg" width="160" height="110"
+                         style="margin-left: 20px">
+                    <div class="content-title">小爱万能遥控版</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">199</a></div>
+                </div>
+                <div class="list-content">
+                    <div class="new-or-hot" style="visibility: hidden">新品</div>
+                    <img src="images/header/pc-320-miplay-1.png" width="160" height="110" style="margin-left: 20px">
+                    <div class="content-title">查看全部</div>
+                    <div class="content-title"><a href="" style="color: #ff6700">智能硬件</a></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--轮播部分开始-->
+    <div class="layui-main mi-lunbo container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators" id="page-carl">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <!--轮播左侧选项卡-->
+                <div class="right-tab-control">
+                    <ul class="carl-tab">
+                        <li>
+                            <a href="">手机 电话卡</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">电视 盒子</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">笔记本 平板</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">家电 插线板</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">出行 穿戴</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">智能 路由器</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">电源 配件</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">健康 儿童</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">耳机 音响</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                        <li>
+                            <a href="">生活 箱包</a>
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <!--轮播右侧选项卡内容-->
+                <div class="tab-container">
+                    <a href="" id="submenu">
+                        <img src="images/header/mi9-320.png" alt="" width="40px" height="40px">
+                        <span>小米9</span>
+                    </a>
+                </div>
+                <div class="item active">
+                    <img src="images/carousel/xmad_15605928954932_onhGU1.jpg" alt="...">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/xmad_15605924618436_zwSLT2.jpg" alt="...">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/xmad_15593971067493_BzRsF3.jpg" alt="...">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/xmad_15604803947513_oAwtS4.jpg" alt="...">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/carousel/xmad_15605919991412_yKqZM5.jpg" alt="...">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" id="left-carl" href="#carousel-example-generic" role="button"
+               data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" id="right-carl" href="#carousel-example-generic" role="button"
+               data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--轮播部分结束-->
+    <!--右侧垂直滑动导航栏开始-->
+    <div class="right-bar">
+        <ul id="right-bar-ul">
+            <li>
+                <a href="" class="afont">
+                    <i class="iconfont">&#xe658;</i>
+                    <span>手机APP</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="afont">
+                    <i class="iconfont">&#xe6d6;</i>
+                    <span>个人中心</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="afont">
+                    <i class="iconfont">&#xe629;</i>
+                    <span>售后服务</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="afont">
+                    <i class="iconfont">&#xe62f;</i>
+                    <span>联系客服</span>
+                </a>
+            </li>
+            <li>
+                <a href="" class="afont">
+                    <i class="iconfont">&#xe601;</i>
+                    <span>购物车</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--右侧垂直滑动导航栏开始-->
+    <!--轮播下方广告块开始-->
+    <div class="row" id="piece-content">
+        <div class="col-md-3 advertising-piece">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe658;</i>
+                        <span>选购手机</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe604;</i>
+                        <span>企业团购</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe603;</i>
+                        <span>F码通道</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe6a1;</i>
+                        <span>米粉卡</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe60b;</i>
+                        <span>以旧换新</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe602;</i>
+                        <span>话费充值</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3 advertising-piece">
+            <a href="">
+                <img src="images/body/xmad_15608647846272_BvQgk.jpg" alt="" width="285" height="170">
+            </a>
+        </div>
+        <div class="col-md-3 advertising-piece">
+            <a href="">
+                <img src="images/body/xmad_1561101306533_VNzsj.jpg" alt="" width="285" height="170">
+            </a>
+        </div>
+        <div class="col-md-3 advertising-piece">
+            <a href="">
+                <img src="images/body/xmad_15604776623629_bRHhl.jpg" alt="" width="285" height="170">
+            </a>
+        </div>
+    </div>
+    <!--广告条1开始-->
+    <div class="advertising-bar">
+        <a href="">
+            <img src="images/body/xmad_15613873453963_Enldv.jpg" alt="" width="1170" height="120">
+        </a>
+    </div>
+    <!--广告条1结束-->
+    <!--轮播下方广告块结束-->
+</header>
+<!-- 头部结束 -->
+<!-- 中间部分开始 -->
+<div class="main-bd">
+    <!--手机部分开始-->
+    <div class="layui-main mi-body-phone">
+        <div class="phone-title">
+            <span class="sp-phone">手机</span>
+            <a href="">
+                <span>查看全部</span>
+                <i class="iconfont">&#xe644;</i>
+            </a>
+        </div>
+        <div class="phone-content">
+            <div class="right-img">
+                <a href="">
+                    <img src="images/body/xmad_1561118283559_PdAOq.jpg" alt="" width="240" height="650">
+                </a>
+            </div>
+            <li class="phone-list-content">
+                <ul>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1550642182.7527088!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">小米9 6GB+128GB</a>
+                        <p>骁龙855，索尼4800万超广角微距三摄</p>
+                        <span>2999元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(229,57,53);">秒杀</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1540429613.4617799!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">小米MIX 3 6GB+128GB</a>
+                        <p>磁动力滑盖全面屏 / 四曲面陶瓷机身</p>
+                        <span>2299元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">新品</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1552647865.67536173!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">Redmi Note 7 Pro</a>
+                        <p>6GB+128GB大存储，索尼4800万拍照</p>
+                        <span>1599元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(229,57,53);">秒杀</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1554694214.08887531!220x220.png" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">小米Play 4GB+64GB</a>
+                        <p>八核高性能处理器，后置1200万 AI 双摄</p>
+                        <span>749元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(229,57,53);">秒杀</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1538019009.57772743!220x220.png" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">小米8屏幕指纹版6+128</a>
+                        <p>潮流镜面渐变色，2400万自拍旗舰</p>
+                        <span>1499元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(229,57,53);">减200</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1537324004.08544830!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">小米8青春版6GB+64GB</a>
+                        <p>骁龙855，索尼4800万超广角微距三摄</p>
+                        <span>2999元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">新品</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1547020972.223707!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">RedmiNote7 6GB+64G</a>
+                        <p>4800万拍照，4000mAh大电量</p>
+                        <span>1399元</span>
+                    </li>
+                    <li class="items">
+                        <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">新品</div>
+                        <a href="" class="phone-img-a">
+                            <img src="images/body/pms_1558857780.47412427!220x220.jpg" alt="" width="180px"
+                                 height="180px">
+                        </a>
+                        <a href="" class="phone-name-a">RedmiK20Pro 6GB+128GB</a>
+                        <p>骁龙855旗舰处理器，索尼4800万超</p>
+                        <span>2599元</span>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <!--手机部分结束-->
+    <!--广告条2开始-->
+    <div class="advertising-bar" style="margin-top: 20px">
+        <a href="">
+            <img src="images/body/xmad_15613665145968_pVvJm.jpg" alt="" width="1170" height="120">
+        </a>
+    </div>
+    <!--广告条2结束-->
+    <!--家电部分开始-->
+    <div class="layui-main mi-body-jadian">
+        <div class="jd-title">
+            <div class="left-title">家电</div>
+            <div class="jd-list-content">
+                <ul class="jd-list">
+                    <li>
+                        <a href="">热门</a>
+                    </li>
+                    <li>
+                        <a href="">电视影音</a>
+                    </li>
+                    <li>
+                        <a href="">电脑</a>
+                    </li>
+                    <li>
+                        <a href="">家居</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="left-piece">
+            <ul>
+                <li>
+                    <a href="">
+                        <img src="images/body/xmad_15608266264545_qWIRv.jpg" alt="" width="215" height="320">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="images/body/xmad_15608266614476_wdGNy.jpg" alt="" width="215" height="320">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="jd-list-tab">
+            <ul>
+                <li class="jd-lists">
+                    <!--热点-->
+                    <div class="hot-piece">
+                        <ul>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减130</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1500287084.72131750!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米电视4A 32英寸</a>
+                                <p>64位4核处理器/1GB+4GB大内存</p>
+                                <span>769元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">享8折扣</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1535103027.24861415!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米电视4A 65英寸</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2699元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">不满意，不喜欢，不开心！</p>
+                                    <span class="comment-name">来自 花花 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/xmad_15350951136177_QUuVm.png" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">15.6笔记本i5 4G</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<</p>
+                                <span>4199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">打游戏很爽！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1524636075.71677607!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">13.3小米笔记本4核i7</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>5999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1560161251.21862332!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家互联网烘洗一体机</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减500</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1545286017.38639954!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家互联网空调(一级)</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1560232653.29021311!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">盐灶套装(天然气)</a>
+                                <p>吸油，燃气灶，油烟机，抽烟机，套装</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li class="lastchild-li">
+                                <div class="last-li">
+                                    <ul>
+                                        <li>
+                                            <a href="" style="float: left">小米体脂秤2</a>
+                                            <div style="color: #ff6700">99元</div>
+                                            <a href=""><img src="images/body/pms_1555659431.52713594!220x220.jpg"
+                                                            alt=""></a>
+                                        </li>
+                                        <li>
+                                            <div>浏览更多</div>
+                                            <p>热门</p>
+                                            <a href="">
+                                                <i class="iconfont">&#xe611;</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="jd-lists">
+                    <!--电视影音-->
+                    <div class="hot-piece">
+                        <ul>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1555935546.09711490!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米壁挂电视 65英寸</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>6999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">享8折扣</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1555947485.70419235!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米全面屏电视E55A</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">不满意，不喜欢，不开心！</p>
+                                    <span class="comment-name">来自 花花 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1522318330.86967810!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米电视4C 50英寸</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<</p>
+                                <span>4199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">打游戏很爽！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1539315570.63599432!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米电视4C 35英寸</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>1299元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减130</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1500287084.72131750!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米电视4A 32英寸</a>
+                                <p>64位4核处理器/1GB+4GB大内存</p>
+                                <span>769元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减500</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1516975996.71444436!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米盒子4</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1560232653.29021311!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">盐灶套装(天然气)</a>
+                                <p>吸油，燃气灶，油烟机，抽烟机，套装</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li class="lastchild-li">
+                                <div class="last-li">
+                                    <ul>
+                                        <li>
+                                            <a href="" style="float: left">小米盒子4C</a>
+                                            <div style="color: #ff6700">199元</div>
+                                            <a href=""><img src="images/body/pms_1516976220.59976234!220x220.jpg"
+                                                            alt=""></a>
+                                        </li>
+                                        <li>
+                                            <div>浏览更多</div>
+                                            <p>电视影音</p>
+                                            <a href="">
+                                                <i class="iconfont">&#xe611;</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="jd-lists">
+                    <!--电脑-->
+                    <div class="hot-piece">
+                        <ul>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);visibility: hidden">
+                                    减130
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1533266333.04566853!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">16.5 pro i5 8GB</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>6299元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);visibility: hidden">
+                                    享8折扣
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1525231579.56571137!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">13.3小米笔记本4核i7</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>5699元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">不满意，不喜欢，不开心！</p>
+                                    <span class="comment-name">来自 花花 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/xmad_15350951136177_QUuVm.png" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">15.6笔记本i5 4G</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<</p>
+                                <span>4199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">打游戏很爽！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1524636075.71677607!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">13.3小米笔记本4核i7</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>5999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1490595812.95661863!220x220.png" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米无线鼠标</a>
+                                <p>耐脏亲肤图层，人体工学设计</p>
+                                <span>69元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);visibility: hidden">
+                                    减500
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1478248566.62624407!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米便携鼠标</a>
+                                <p>轻薄便携，铝合金外壳+ABS 材质</p>
+                                <span>2199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1490702347.3628109!220x220.png" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">悦米机械键盘</a>
+                                <p>铝合金机身，TTC红轴，87健</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li class="lastchild-li">
+                                <div class="last-li">
+                                    <ul>
+                                        <li>
+                                            <a href="" style="float: left">多功能转换器</a>
+                                            <div style="color: #ff6700">149元</div>
+                                            <a href=""><img src="images/body/pms_1469523170.25518983!220x220.jpg"
+                                                            alt=""></a>
+                                        </li>
+                                        <li>
+                                            <div>浏览更多</div>
+                                            <p>电脑</p>
+                                            <a href="">
+                                                <i class="iconfont">&#xe611;</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="jd-lists">
+                    <!--家居-->
+                    <div class="hot-piece">
+                        <ul>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);visibility: hidden">
+                                    减130
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1465366178.11466342!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家恒温电水壶</a>
+                                <p>&nbsp;&nbsp;水温自动控制，304不锈钢内胆</p>
+                                <span>199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1506417289.23728408!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米随身手电筒</a>
+                                <p>&nbsp;&nbsp;11档调光，随心而亮</p>
+                                <span>79元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">不满意，不喜欢，不开心！</p>
+                                    <span class="comment-name">来自 花花 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">
+                                    新品
+                                </div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1472609961.95298675!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家扫地机器人</a>
+                                <p>智能规划路径，扫的干净快</p>
+                                <span>1699元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">打游戏很爽！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减100元</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1510020567.64467830!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">小米米家空气净化器</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>5999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);visibility: hidden">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/T1OVC_ByY_1RXrhCrK!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家压力电饭煲</a>
+                                <p>智能烹饪</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(229,57,53);">减500</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1545286017.38639954!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">米家互联网空调(一级)</a>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                                <span>2199元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-top" style="background-color:rgb(131,196,78);">新品</div>
+                                <a href="" class="phone-img-a">
+                                    <img src="images/body/pms_1560232653.29021311!220x220.jpg" alt="" width="180px"
+                                         height="180px">
+                                </a>
+                                <a href="" class="phone-name-a">盐灶套装(天然气)</a>
+                                <p>吸油，燃气灶，油烟机，抽烟机，套装</p>
+                                <span>2999元</span>
+                                <div class="comment-piece">
+                                    <p class="comment">很满意，非常喜欢，开心！</p>
+                                    <span class="comment-name">来自 XX 的评价</span>
+                                </div>
+                            </li>
+                            <li class="lastchild-li">
+                                <div class="last-li">
+                                    <ul>
+                                        <li>
+                                            <a href="" style="float: left">小米体脂秤2</a>
+                                            <div style="color: #ff6700">99元</div>
+                                            <a href=""><img src="images/body/pms_1555659431.52713594!220x220.jpg"
+                                                            alt=""></a>
+                                        </li>
+                                        <li>
+                                            <div>浏览更多</div>
+                                            <p>热门</p>
+                                            <a href="">
+                                                <i class="iconfont">&#xe611;</i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--家电部分结束-->
+</div>
+<!-- 中间部分结束 -->
+<!-- 脚步开始 -->
+<footer>
+    <div class="mi-footer-top">
+        <div class="mi-footer-content layui-main">
+            <ul class="mi-list-service">
+                <li><a href=""><i class="layui-icon layui-icon-util"></i>预约维修服务</a></li>
+                <li><a href=""><i class="layui-icon layui-icon-util"></i>7天无理由退货</a></li>
+                <li><a href=""><i class="layui-icon layui-icon-util"></i>15天免费换货</a></li>
+                <li><a href=""><i class="layui-icon layui-icon-util"></i>满150元包邮</a></li>
+                <li><a href=""><i class="layui-icon layui-icon-util"></i>520余家售后网点</a></li>
+            </ul>
+            <hr>
+            <ul class="mi-list-link">
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">庄户管里</a></dd>
+                        <dd><a href="">用户指南</a></dd>
+                        <dd><a href="">订单操作</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <p>400-100-5678</p>
+                    <p>周一至周日 8:00-18:00</br>
+                        （仅收市话费）</p>
+                    <a href="" class="mi-a-kefu"><i class="layui-icon layui-icon-dialogue"></i>联系客服</a>
+                </li>
+            </ul>
+            <div class="layui-clear "></div>
+        </div>
+    </div>
+    <div class="mi-footer-bottom">
+        <div class="mi-footer-content layui-main">
+            <div class="mi-footer-left ">
+                <img src="images/xiaomiLoge.png" alt="" width="57" height="57">
+            </div>
+            <div class="mi-footer-right ">
+                <a href="#">小米商城</a><span class="sep">|</span>
+                <a href="#">MIUI</a><span class="sep">|</span>
+                <a href="#">LoT</a><span class="sep">|</span>
+                <a href="#">云服务</a><span class="sep">|</span>
+                <a href="#">金融</a><span class="sep">|</span>
+                <a href="#">有品</a><span class="sep">|</span>
+                <a href="#">小爱开放平台</a><span class="sep">|</span>
+                <a href="#">政企服务</a><span class="sep">|</span>
+                <a href="#">Select Region</a>
+            </div>
+            </br>
+            <p>
+                ©mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2017]1530-131号
+                违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+            </p>
+            <div class="layui-main mi-footer-bottom-span">
+                <span class="layui-clear">探索黑科技，小米为发烧而生</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- 脚步结束 -->
+<script type="text/javascript" src="JQuery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="js/header.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/mainbody.js"></script>
+</body>
+</html>

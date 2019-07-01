@@ -1,0 +1,202 @@
+header {
+    background-color: #FFF;
+}
+
+.mi-topbar {
+    height: 40px;
+    background-color: #333;
+}
+
+.mi-topbar {
+    line-height: 40px;
+}
+
+.mi-topbar .sep {
+    color: #424242;
+    padding: 0px 4px 0px 6px;
+}
+
+.mi-topbar a {
+    color: #B0B0B0;
+}
+
+.mi-topbar a:hover {
+    color: #ffffff;
+}
+
+.mi-topbar .mi-topbar-info {
+    position: absolute;
+    right: 130px;
+    top: 0px;
+}
+
+.mi-topbar .mi-topbar-shopping {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.mi-topbar .mi-topbar-shopping a {
+    color: #B0B0B0;
+    background-color: #424242;
+    display: block;
+    padding: 0px 10px;
+}
+
+.mi-topbar .mi-topbar-shopping a:hover {
+    color: #ff6700;
+    background-color: #fff;
+}
+
+.mi-topbar .mi-topbar-shopping a i {
+    padding: 0px 8px;
+}
+
+.mi-topbar .mi-topbar-shopping a i:hover {
+    color: #ff6700;
+}
+
+.mi-topbar .mi-topbar-shopping .mi-topbar-shopping-content {
+    position: absolute;
+    display: none;
+    right: 0px;
+    height: 100px;
+    width: 316px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+}
+
+/*生成主要导航*/
+.mi-mainbar {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+}
+
+.mi-mainbar .mi-mainbar-container {
+    position: relative;
+
+}
+
+.mi-mainbar .mi-mainbar-container #mi-main-list {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+.mi-mainbar .mi-mainbar-container #mi-main-list li {
+    float: left;
+    height: 230px;
+}
+
+.mi-mainbar .mi-mainbar-container #mi-main-list li a {
+    display: block;
+    padding-right: 20px;
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search {
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    border: 0px solid rgba(194, 194, 194, 0.72);
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search input {
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(178, 178, 178, 0.66);
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search i {
+    padding: 15px 15px 15px 14px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid rgba(194, 194, 194, 0.69);
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search i:hover {
+    border: 1px solid #ff6700;
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search-text {
+    position: absolute;
+    right: 60px;
+    top: 3px;
+    z-index: 10;
+    height: 30px;
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search-text span {
+    padding: 3px 5px;
+    padding: 3px;
+    color: #919191;
+    background-color: #EEE;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.mi-mainbar .mi-mainbar-container .mi-search-text span:hover {
+    background-color: #ff6700;
+    color: white;
+    transition: all .3s;
+}
+
+.mi-mainbar .mi-main-list-content {
+    position: absolute;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    width: 1920px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.mi-mainbar .mi-main-list-content .list-content {
+    line-height: 15px;
+    float: left;
+    width: 200px;
+    height: 200px;
+
+}
+
+.mi-mainbar .mi-main-list-content .list-content-first {
+    line-height: 15px;
+    float: left;
+    margin-left: 160px;
+    width: 200px;
+    height: 200px;
+}
+
+.mi-mainbar .mi-main-list-content .new-or-hot {
+    margin-left: 65px;
+    text-align: center;
+    display: inline-block;
+    width: 65px;
+    height: 17px;
+    font-size: 12px;
+    color: #ff6700;
+    border: 1px solid #ff6700;
+    margin-bottom: 20px;
+}
+
+.mi-mainbar .mi-main-list-content .content-title {
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mi-mainbar .mi-main-list-content .content--img {
+    display: inline-block;
+    border-right: 1px solid rgba(128, 128, 128, 0.47);
+}
+
+
